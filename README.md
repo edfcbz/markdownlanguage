@@ -3,6 +3,12 @@
 Esse projeto propõe apresentar a linguagem de marcação utilizada.
 
 Contribuições serão sempre bem vindas...
+## Dicas iniciais
+ **1** - Utilizar cerquilha para a abertuda de tópicos e toda a linha ficada em negrito  
+ **2** - Utilizar asterisco para os negritos  
+ **3** - Para salto de linha podem ser utilizados as tegs do html como o < /br> como também dois espaços vazios e pressione ENTER  
+
+
 
 ## 📋 Descrição do Tópico
 * 1 - **Seção**
@@ -10,7 +16,7 @@ Contribuições serão sempre bem vindas...
        *1.1.1*   - **Item da subseção em itálico** Deve-se utilizar um asterisco no início e no final do *item desejado*</br>
        **1.1.1** - **Item da subseção em negrito** Deve-se utilizar o dois asteriscos no início e no final do **item desejado**</br>
        ***1.1.1***  - **Item da subseção em itálico e negrito** Deve-se utilizar treis asteriscos no início e no final do ***item desejado***</br>
-       ## 1.1.1***  - Com duas cerquilhas, toda a linha ficará em negrito
+        ## 1.1.1 - Com duas cerquilhas, toda a linha ficará em negrito
 
 
 ## ⚙️ Main Technologies
