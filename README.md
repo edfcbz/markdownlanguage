@@ -1,29 +1,17 @@
-# This repository has a RESTFul API for Dealer and Listing entities
+# Tutorial de markdown
 
-This project implements the use, test and log functionalities of the RESTFull API for Dealer and Listing entities, with supports for basic and customized CRUD operations. With different sections, this document define all details of project and how use it. If you have any question about topics below, let me know by email informed in boton of this document. 
+Esse projeto propõe apresentar a linguagem de marcação utilizada.
 
-Thank you for review !
+Contribuições serão sempre bem vindas...
 
-## 📋 Business
-* 1 - **Requirements**
-  * 1.1 - **Listing** - A vehicle advertisement. Listing can be in one of two possible states: **published** or **draft** (available or not online)</br>
-           * 1.1.1 - **Atributes** id: uuid, dealerId: uuid, vehicle: string, price: number, createdAt: date, state: draft/published 
-  * 1.2 - **Car Dealer** - An owner of the advertisement</br>
-           * 1.2.1 - **Atributes** id: uuid, name: String</br>
-           * 1.2.2 - **Tier Limit** A number of published listings a dealer can have online </br>
-  * 1.3 - **Logs**
-  * 1.4 - **Exception handling**
-  * 1.5 - **Documentation**
-  * 1.6 - **Tests**
+## 📋 Descrição do Tópico
+* 1 - **Seção**
+  * 1.1 - **Subseção** - Uma subseção com palavras **específicas** destacadas com negrito</br>
+       *1.1.1*   - **Item da subseção em itálico** Deve-se utilizar um asterisco no início e no final do *item desejado*</br>
+       **1.1.1** - **Item da subseção em negrito** Deve-se utilizar o dois asteriscos no início e no final do **item desejado**</br>
+       ***1.1.1***  - **Item da subseção em itálico e negrito** Deve-se utilizar treis asteriscos no início e no final do ***item desejado***</br>
+       ## 1.1.1***  - Com duas cerquilhas, toda a linha ficará em negrito
 
-* 2 - **Functionalities**
-  * 2.1 - **Listing:** Create, update, delete, find all, find by Id, find by Vehicle description, find by dealer id and state, find by state, publish*, publish** unpublishin the oldest.
-  
-  * 2.1 - **Car Dealer:** Create, update, delete, find all, find by id, find by id and state, find by dealer name.  
-
-* 3 - **Rules**
-  * 3.1 - **Car Dealer** - Must have the maximum number of published Listings 
-  * 3.2 - **Listing** - The quantity published is limited, according Dealer setting. During the update the system should check and throw an exception if the limit has been reached as well offer another endpoint during update process as option to replaces the oldest Listing
 
 ## ⚙️ Main Technologies
 * 1 - **String** Boot, Security and Data
